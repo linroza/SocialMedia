@@ -1,6 +1,7 @@
 import { Avatar, AvatarGroup, Box, Divider, ImageList, ImageListItem, List, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material'
 import React from 'react'
-import image from '../../assets/MyPic.jpg'
+import image from "../../../public/assets/MyPic.jpg"
+
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {

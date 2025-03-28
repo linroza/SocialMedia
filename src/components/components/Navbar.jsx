@@ -2,7 +2,8 @@ import { AppBar, Avatar, Badge, Box, InputBase, Menu, MenuItem, styled, Toolbar,
 import React, { useState } from 'react'
 import MailIcon from '@mui/icons-material/Mail';
 import { Notifications } from '@mui/icons-material';
-import logo from '../../assets/MYPic.jpg';
+import logo from "../../../public/assets/MyPic.jpg"
+
 
 const Navbar = () => {
     const [open,setOpen] = useState(false)

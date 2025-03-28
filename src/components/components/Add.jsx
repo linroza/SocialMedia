@@ -1,7 +1,8 @@
 import { Avatar, Box, Fab, IconButton, Modal, Stack, styled, TextField, Tooltip, Typography } from '@mui/material'
 import React, { useState } from 'react'
 import AddIcon from '@mui/icons-material/Add';
-import image from '../../assets/MyPic.jpg'
+import image from "../../../public/assets/MyPic.jpg"
+
 
 export const Add = () => {
     const StyleModal = styled(Modal)({
